@@ -4,14 +4,6 @@ Projet en cours dans le cadre de la SAÉ R2-02 et R2-07 (année 2025-2026).
 
 Objectif: Concevoir et développer une application complète en Python pour jouer au jeu du **Néonaure**, une variante du Sudoku.
 
-## Membres de l'équipe:
-* **Plaetevoet Gaëlle**
-* **Laniez Gabriel**
-* **Roba Ethan**
-
-## Cloner le dépôt:
-git clone https://github.com/gpltvt/SAE_GRAPH_IHM.git
-
 ## Construction des fichiers JSON
 * **Motifs :** identifiant unique pour un motif de la grille. Chaque valeur associée est une liste de coordonnées qui représente les cases composants le motif.
 * **Case :** X, c'est l'index de la colonne. Y, c'est l'index de la ligne. Valeur, c'est l'indice de départ de la case. Si au début du jeu le troisième chiffre est 0, alors la case est vide. Si le troisième chiffre est autre que 0, alors c'est un chiffre fixe.
@@ -32,7 +24,7 @@ git clone https://github.com/gpltvt/SAE_GRAPH_IHM.git
 ## Gestion des données:
 * **Chargement et sauvegarde:** importation et exportation possibles au format JSON.
 
-## Partie IA & algorithmique:
+## Partie algorithmique:
 * **Solveur automatique:** algorithme de Backtracking récursif qui analyse/trie les cases vides par taille de motif pour accélérer la résolution.
 * **Contrôle de flux:** intégration de processEvents() pour éviter le plantage.
 * **Réinitialisation de la grille:** permet de vider la grille sans effacer les cases fixées du départ.
